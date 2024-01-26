@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 60%;
+  color: #232321;
+  font-family: 'Pontano Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid #232321;
+  padding: 10px 16px;
+}
+
+textarea {
+  border-radius: 8px;
+  border: 1px solid #232321;
+  padding: 10px 16px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-btn {
+  border-radius: 8px;
+  background: #f2b964;
+  padding: 14px 16px;
+  color: var(--white, #fff);
+  font-family: 'Pontano Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  border: none;
+  width: 220px;
+}
+
+.cancel-btn {
+  border-radius: 8px;
+  background: white;
+  padding: 14px 16px;
+  color: #232321;
+  font-family: 'Pontano Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  border: none;
+  width: 220px;
+}
